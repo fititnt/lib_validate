@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension 
+    type="library" 
+    version="1.7" 
+    method="upgrade"
+    >
+    <libraryname>validate</libraryname>
+    <name>validate</name>
+    <description>LIB_VALIDATE_DESCRIPTION</description>
+    <creationDate>2011-12-02</creationDate>
+    <author>Emerson Rocha Luiz</author>
+    <authorEmail>emerson@webdesign.eng.br</authorEmail>
+    <authorUrl>http://fititnt.org</authorUrl>
+    <copyright>Copyright (C) 2011 Webdesign Assessoria em Tecnilogia da Informacao. All rights reserved.</copyright>
+    <license>GNU General Public License version 3. See license.txt</license>
+    <version>0.1alpha</version>
+    <files>
+        <file>validate.php</file>
+        <file>validate.xml</file>
+        <file>index.html</file>
+        <file>license.txt</file>
+        <file>loader.php</file>
+        <file>readme.txt</file>
+        <folder>language</folder>        
+        <folder>region</folder>
+        <!--<folder>doc</folder>-->
+    </files>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.lib_validate.ini</language>
+        <language tag="en-GB">en-GB/en-GB.lib_validate.sys.ini</language>
+    </languages>
+</extension>
